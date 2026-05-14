@@ -1,6 +1,6 @@
 # CP/DSA Solutions
 
-My accepted solutions on Codeforces.
+My accepted solutions on various coding websites.
 <br>
 Some files which start with uf might be unfinished.
 <br>
