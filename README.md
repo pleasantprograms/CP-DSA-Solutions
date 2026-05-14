@@ -1,4 +1,4 @@
-# Codeforces Solutions
+# CP/DSA Solutions
 
 My accepted solutions on Codeforces.
 <br>
