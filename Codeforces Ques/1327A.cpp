@@ -5,40 +5,23 @@ mt19937_64 RNG(chrono::steady_clock::now().time_since_epoch().count());
 
 void solve()
 {
-    int n, k;
+    long long int n, k;
     cin >> n >> k;
-    if (n < k)
+    if (k*k>n)
     {
         cout << "NO" << endl;
     }
-    else if (n<2*k)
+    else if (k%2==0 && n%2!=0)
+    {
+        cout << "NO" << endl;
+    }
+    else if (k%2!=0 && n%2==0)
     {
         cout << "NO" << endl;
     }
     else
     {
-        if (n % 2 == 0)
-        {
-            if (k % 2 == 0)
-            {
-                cout << "YES" << endl;
-            }
-            else
-            {
-                cout << "NO" << endl;
-            }
-        }
-        else
-        {
-            if (k % 2 == 0)
-            {
-                cout << "NO" << endl;
-            }
-            else
-            {
-                cout << "YES" << endl;
-            }
-        }
+        cout << "YES" << endl;
     }
 }
 
